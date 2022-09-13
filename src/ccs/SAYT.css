@@ -1,0 +1,677 @@
+.header_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header_item h1 span {
+    font-weight: 900;
+    color: #ff8400;
+}
+
+.header_item h1 {
+    font-weight: 900;
+}
+
+.header_item img {
+    width: 30px;
+    height: 30px;
+}
+
+.header_list {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+}
+
+.header_item p {
+    margin: 0;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+}
+
+.header_item p {
+    margin: 0;
+}
+
+.header_stuff h5 {
+    margin: 0;
+    color: #ff8400;
+}
+
+.header_stuff:first-child {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(188, 178, 226, 0.75);
+    align-items: center;
+    width: 300px;
+    padding: 16px;
+    height: 70px;
+}
+
+.header_stuff:first-child:hover {
+    background-color: rgba(170, 160, 203, 0.75);
+}
+
+.header_stuff_item {
+    display: flex;
+    align-items: center;
+}
+
+.header_stuff img {
+    width: 30px;
+    height: 30px;
+}
+
+.header_stuff_item img {
+    margin-right: 5px;
+}
+
+.header_arrow, li img {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.header_stuff:nth-child(2) ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 600px;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+.header_stuff button {
+    margin-right: 5px;
+}
+
+.header_stuff button {
+    border-radius: 5px;
+    background-color: #ff8400;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 110px;
+    height: 45px;
+    transition: 0.5s;
+}
+
+.header_stuff button:hover {
+    background-color: #af5800;
+}
+
+.lider {
+    background-image: url("../img/carousel-2.jpg");
+    height: 520px;
+    position: relative;
+}
+
+.bosh h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.bosh h1 {
+    color: white;
+    font-size: 85px;
+}
+
+.bosh {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.vbn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orangered;
+    border: 3px solid white;
+
+}
+
+.kjh {
+    position: relative;
+    top: 222px;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bosh button {
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+    background-color: #ff8400;
+    height: 40px;
+    border: none;
+}
+
+.vbn:nth-child(1), .vbn:nth-child(3) {
+    background-color: #6c757d;
+}
+
+.pul {
+    height: 100vh;
+}
+
+.pul1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+.pul2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pul2 img {
+    border-radius: 10px;
+}
+
+.pul3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 608px;
+}
+
+
+.pul3 h4 {
+    font-size: 20px;
+    color: #ff8400;
+}
+
+.pul3 h1 {
+    font-size: 50px;
+    color: #0a0a2f;
+}
+
+.pul3 p {
+    font-size: 15px;
+}
+
+.pul3 button {
+    color: white;
+    background-color: #ff8400;
+    width: 120px;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+}
+
+.yop {
+    height: 100vh;
+}
+
+.yop-1 {
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("https://symposium.org/wp-content/uploads/2021/11/Purpose-oriented-Leadership-in-the-New-World-of-Work.jpg");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.yop-0 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    height: 500px;
+}
+
+.yop-1:nth-child(2) {
+    background-image: url("https://www.proofhub.com/wp-content/uploads/2021/01/10-Ways-You-Can-Improve-Your-Work-Performance-Today.jpg");
+}
+
+.yop-1:nth-child(3) {
+    background-image: url("https://www.zdnet.com/a/img/resize/846b4c4d075dd9a5d7f4961767e6906c619020d8/2020/07/21/8f8c5e3b-1eb7-4100-b4d8-0059c89cd8e6/istock-1213497796-2.jpg?auto=webp&width=1200");
+}
+
+.yop-1:nth-child(4) {
+    background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20151120172744-procrastination-young-man-home-office-laptop-distracted-work-distant.jpeg");
+}
+
+.yop-1:nth-child(5) {
+    background-image: url("https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2015/12/09112429/work-life-balance-working-from-home-1024x513.jpg");
+}
+
+.yop-1:nth-child(6) {
+    background-image: url("https://turanizmir.com/en/wp-content/uploads/2021/03/Work-in-Turkey.jpeg");
+}
+
+.yop-1:nth-child(7) {
+    background-image: url("https://www.openaccessgovernment.org/wp-content/uploads/2019/03/dreamstime_s_115214614.jpg");
+}
+
+.yop-1:nth-child(8) {
+    background-image: url("https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/06/25122441/negotiate-permanent-work-from-home-remote-1024x513.jpg");
+}
+
+.yop-3 {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.yop-3 h1 {
+    font-size: 22px;
+}
+
+.yop-3 h4 {
+    font-size: 18px;
+}
+
+.yop, h1, h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.yop-4 {
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.42);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.yop-2 {
+    z-index: 12;
+    position: relative;
+}
+
+.sada {
+    height: 100vh;
+    background-image: url("../img/registration.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.sad-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 600px;
+    height: 500px;
+}
+
+.sad-3 img {
+    width: 30px;
+    height: 30px;
+}
+
+.sad-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.sad-4 img {
+    width: 30px;
+    height: 30px;
+}
+
+.sad-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.sad-5 img {
+    width: 30px;
+    height: 30px;
+}
+
+.sad-5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sad-2 h1 {
+    color: #ff8400;
+    font-size: 30px;
+}
+
+.sad-2 h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.sad-2 p {
+    color: white;
+    font-size: 20px;
+}
+
+.sad-3, .sad-4, .sad-5, h3 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+
+.sad-gl {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.sad-6 {
+    width: 440px;
+    height: 445px;
+}
+
+.sad-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sad-8 {
+    background-color: white;
+    width: 440px;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sad-7 {
+    width: 440px;
+    height: 345px;
+    background-color: #ff8400;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sad-8 h1 {
+    color: darkcyan;
+    margin: 50px;
+}
+
+.sad-9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.73);
+    top: 0;
+    left: 0;
+}
+
+.sad {
+    z-index: 2;
+    position: relative;
+}
+
+.sad-7 input, select {
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.sad-7 button {
+    width: 330px;
+    height: 65px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #6e5897;
+    border-radius: 15px;
+}
+
+.boni {
+    height: 100vh;
+}
+
+.bon {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bon-1 h2 {
+    color: #ff8400;
+    font-size: 20px;
+}
+
+.bon-1 h1 {
+    color: #270d82;
+}
+
+.bon-1 {
+    text-align: center;
+}
+
+.bon-2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.bon-2 p {
+    font-size: 27px;
+}
+
+.bon-3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bon-3 h1 {
+    font-size: 20px;
+}
+
+.bon-3 h2 {
+    font-size: 15px;
+}
+
+.bon-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bon-2 {
+    width: 700px;
+}
+
+.bon-4 {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #6e5897;
+    border: solid 5px #ff8400;
+    border-radius: 50%;
+}
+
+.bon-5 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.yutu {
+    height: 60vh;
+    background-color: #433c5a;
+}
+
+.yut {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+}
+
+.waa {
+    height: 40vh;
+}
+
+.yut-1 {
+    width: 334px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yut-2 h1 {
+    font-size: 25px;
+    color: #ff8400;
+}
+
+.yut-2 {
+    text-align: left;
+
+}
+
+.yut-2 p {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.yut-3 img {
+    width: 17px;
+    height: 17px;
+}
+
+.yut-3 {
+    display: flex;
+    align-items: center;
+}
+
+.yut-4 {
+    width: 334px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yut-10 {
+    display: flex;
+    flex-direction: column;
+}
+
+.yut-10 p {
+    font-size: 20px;
+    color: white;
+}
+
+.yut-10 h1 {
+    color: #ff8400;
+    font-size: 21px;
+}
+
+.yut-11 {
+    width: 450px;
+    height: 212px;
+}
+
+.yut-12 p {
+    font-size: 18px;
+    color: white;
+}
+
+.yut-13 input {
+    width: 350px;
+    height: 65px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.yut-13 button {
+    width: 100px;
+    height: 65px;
+    background-color: #ff8400;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.yut-12 h1 {
+    color: #ff8400;
+    font-size: 21px;
+}
+
+.yut-13 {
+    display: flex;
+}
+
+.yut-14 {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+
+.yut-15 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yut-16 {
+    display: flex;
+    justify-content: space-around;
+}
+.yut-15 img{
+    width: 15px;
+    height: 15px;
+}
